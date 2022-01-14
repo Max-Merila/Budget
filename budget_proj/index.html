@@ -11,12 +11,15 @@
 </head>
 <body>
     <h1>Lets do the budget!</h1>
-    <h2>Deposit</h2> <input id="dep" placeholder="deposit" type=text>
-    <button onclick="getDepInput()" id=dep_btn>OK</button>
+    <h2>Deposit</h2> 
+    <input id="dep" placeholder="deposit" type="number" value="" >
+    <button onclick="getDepInput ()">OK</button>
     
-    <h2>Withdrawal</h2> <input id="wit" placeholder="withdrawal" type=tet>
+    <h2>Withdrawal</h2> 
+    <input id="wit" placeholder="withdrawal" type="number" value="">
     <button onclick="getWitInput()" id=wit_btn>Ok</button>
     
-    <h2>Total:</h2>
+    <h2>Deposits</h2><p id="dep_display"></p>
+    <h2>Withdrawals</h2><p id="wit_display"></p>
 </body>
 </html>
