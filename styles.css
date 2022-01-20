@@ -6,19 +6,18 @@
     display: flex;
     justify-content: center;
 }
+#Form{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 #budget_Form{
     display: flex;
     justify-content: center;
 }
 #expense_Form1{
-    display: flex;
-    justify-content: center;
-}
-#expense_Form2{
-    display: flex;
-    justify-content: center;
-}
-#expense_Form3{
+    background-color: blue;
     display: flex;
     justify-content: center;
 }
