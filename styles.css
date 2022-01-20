@@ -1,5 +1,30 @@
-.nav{
-    margin-left: 50%;
+.exp_description_display{
+    display: flex;
+    justify-content: center;
+}
+.exp_amount_display{
+    display: flex;
+    justify-content: center;
+}
+#budget_Form{
+    display: flex;
+    justify-content: center;
+}
+#expense_Form1{
+    display: flex;
+    justify-content: center;
+}
+#expense_Form2{
+    display: flex;
+    justify-content: center;
+}
+#expense_Form3{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
 }
 body {
     background-color: aqua;

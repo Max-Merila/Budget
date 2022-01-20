@@ -10,22 +10,71 @@
 
 </head>
 <body>
-    <div class="nav">
+    <div class="header">
         <h1>Lets do the budget!</h1>
+
+        <!-- Making the form and divs -->
     </div>
+        <div id="Form" class="flex-container">
 
-    <h2>Deposit</h2> 
-        <div class=inputs>
-            <input id="dep" placeholder="deposit" type="number" value="" >
-            <button onclick="getDepInput ()">OK</button>
-        </div>
+            <div id="budget_Form">
 
-        <div class=inputs>
-            <h2>Withdrawal</h2> 
-            <input id="wit" placeholder="withdrawal" type="number" value="">
-            <button onclick="getWitInput()" id=wit_btn>OK</button>
+                <form id=Budget-form class="Budget-form">
+                    <label for="Initial_Budget">Set your Budget</label><br>
+                    <input id="Budget-input" class="form-control Budget-input"
+                    placeholder="initial budget" type="number" value="" >
+                    <input type="submit" class="budget_submit" id="budget-">
+                </form>
+            
+            </div>
+
+            <div id="expense_Form1">
+            <form>
+                <label for="expenses">enter your expense</label><br>
+                <input id="expense" placeholder="expense description" type="text" value="">
+            </div><div id="expense_Form2">
+                <input for="expense_amount" placeholder="expense amount" type="number" value=""><br></div>
+                <div id="expense_Form3">
+                <input type="submit" value="Submit">
+                </div>
+            </form>
+            </div>
+
         </div>
-    <h2>Deposits</h2><p id="dep_display"></p>
-    <h2>Withdrawals</h2><p id="wit_display"></p>
+        <!-- ending of the form
+        
+        Start of the display of the budget information-->
+    <h2>Budget</h2><p id="budget_display">500</p>
+    <h2>Expenses</h2>
+    <div id="exp_display">
+    <div class="exp_discription_display">
+        <h3> expense description</h3>
+        <p id="exp_discription_display">bicycle</p>
+    </div>
+    <div class="exp_amount_display">
+        <h3> expense amount</h3>
+        <p id="exp_amount_display">200</p>
+    </div>
+    </div>
 </body>
 </html>
+
+<!-- 
+first attempt without <form></form>
+<div class="nav">
+    <h1>Lets do the budget!</h1>
+</div>
+
+<h2>Deposit</h2> 
+    <div class=inputs>
+        <input id="dep" placeholder="deposit" type="number" value="" >
+        <button onclick="getDepInput ()">OK</button>
+    </div>
+
+    <div class=inputs>
+        <h2>Withdrawal</h2> 
+        <input id="wit" placeholder="withdrawal" type="number" value="">
+        <button onclick="getWitInput()" id=wit_btn>OK</button>
+    </div>
+<h2>Deposits</h2><p id="dep_display"></p>
+<h2>Withdrawals</h2><p id="wit_display"></p> -->

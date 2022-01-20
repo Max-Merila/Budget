@@ -1,3 +1,8 @@
+class ui {
+    constructor(){
+this.
+    }
+}
 // variables
 let total = 0;
 let deposit =[];
