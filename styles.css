@@ -10,35 +10,37 @@
     background-color: yellow;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    width: 200px;
+    padding: 10px;
 }
 #budget_Form{
-    display: flex;
-    justify-content: center;
+   
 }
 #expense_Form1{
-    background-color: blue;
-    display: flex;
-    justify-content: center;
+
 }
+
 .header{
     display: flex;
     justify-content: center;
 }
+
 body {
     background-color: aqua;
     margin: 10px;
     padding: 10px;
 }
-h2 {
-    align-content: center;
-    margin-right: 20%;
-    margin: 10px;
-    padding: 10px;
-    background-color: orange;
-    text-color: aqua;
-}
+
 button{
     background-color: red;
     border-radius: 15%;
+}
+table{
+    border: 1px solid black;
+    padding: 10px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
 }
